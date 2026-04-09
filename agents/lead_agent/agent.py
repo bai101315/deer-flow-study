@@ -24,10 +24,9 @@ def make_lead_agent(config: RunnableConfig):
     is_bootstrap = cfg.get("is_bootstrap", False)
     agent_name = cfg.get("agent_name")
 
-    model_name = "qwen3.5-plus"
 
     return create_agent(
-        model=create_chat_model(name=model_name, thinking_enabled=thinking_enabled)
+        model=create_chat_model(name=requested_model_name, thinking_enabled=thinking_enabled)
         
     )
 

@@ -30,7 +30,7 @@ async def main():
             "thread_id": "debug-thread-001",
             "thinking_enabled": True,
             "is_plan_mode": True,
-            "model_name": "qwen3.5-plus",
+            "model_name": "minimax-m2.7",
             "subagent_enabled": False,
             "tools_enabled": False
         }
