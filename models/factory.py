@@ -133,7 +133,7 @@ def create_chat_model(name: str | None = None, thinking_enabled: bool = False, *
     # For Codex Responses API models: map thinking mode to reasoning_effort
     # 针对 Codex 模型（OpenAI 代码模型）的专属适配 
     # TODO：暂不考虑   
-    # from deerflow.models.openai_codex_provider import CodexChatModel
+    # from models.openai_codex_provider import CodexChatModel
 
     # if issubclass(model_class, CodexChatModel):
     #     # The ChatGPT Codex endpoint currently rejects max_tokens/max_output_tokens.

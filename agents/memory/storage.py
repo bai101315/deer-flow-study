@@ -221,4 +221,5 @@ def get_memory_storage() -> MemoryStorage:
                 e,
             )
             _storage_instance = FileMemoryStorage()
-
+        
+        return _storage_instance

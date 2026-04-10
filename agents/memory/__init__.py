@@ -37,7 +37,7 @@ from agents.memory.updater import (
 )
 
 __all__ = [
-    # Prompt utilities
+    Prompt utilities
     "MEMORY_UPDATE_PROMPT",
     "FACT_EXTRACTION_PROMPT",
     "format_memory_for_injection",

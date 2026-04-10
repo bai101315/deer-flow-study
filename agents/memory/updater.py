@@ -56,5 +56,5 @@ def clear_memory_data(agent_name: str | None = None) -> dict[str, Any]:
         raise OSError("Failed to save cleared memory data")
     return cleared_memory
 
-
+class MemoryUpdater:
 

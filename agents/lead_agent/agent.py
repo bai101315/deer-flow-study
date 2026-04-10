@@ -6,6 +6,7 @@ from langchain_core.runnables import RunnableConfig
 
 
 from models.factory import create_chat_model
+from .prompt import apply_prompt_template
 
 logger = logging.getLogger(__name__)
 
@@ -28,7 +29,7 @@ def make_lead_agent(config: RunnableConfig):
     return create_agent(
         model=create_chat_model(name=requested_model_name, thinking_enabled=thinking_enabled),
         system_prompt=apply_prompt_template(
-            subagent_enabled=subagent_enabled, max_concurrent_subagents=max_concurrent_subagents, agent_name=agent_name, available_skills=set(agent_config.skills) if agent_config and agent_config.skills is not None else None
+            subagent_enabled=subagent_enabled, max_concurrent_subagents=max_concurrent_subagents, agent_name=agent_name, available_skills=None
         ),
     )
 
