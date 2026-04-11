@@ -1,0 +1,58 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-04-11T13:36:47.343521Z",
+  "user": {
+    "workContext": {
+      "summary": "Python 开发者，工作地点在沈阳。目前专注于学习和研究 AI Agent 相关项目。",
+      "updatedAt": "2026-04-11T13:36:47.341522Z"
+    },
+    "personalContext": {
+      "summary": "偏好使用 SSH 而非 HTTPS 进行 Git 操作。使用中文进行交流。",
+      "updatedAt": "2026-04-11T13:36:47.341522Z"
+    },
+    "topOfMind": {
+      "summary": "当前主要关注点是学习 DeerFlow 项目，这是字节跳动开源的基于 LangGraph 构建的 AI Agent 框架。正在探索项目架构和核心组件，可能需要帮助理解本地运行配置、特定功能实现原理等方面。同时保持对 Python 开发技术的持续关注。",
+      "updatedAt": "2026-04-11T13:36:47.341522Z"
+    }
+  },
+  "history": {
+    "recentMonths": {
+      "summary": "最近开始学习 DeerFlow 项目，这是一个字节跳动开源的 AI Agent 框架，基于 LangGraph 构建。用户表现出对 AI Agent 架构设计的兴趣，正在深入理解该项目的核心组件和实现原理。",
+      "updatedAt": "2026-04-11T13:36:47.341522Z"
+    },
+    "earlierContext": {
+      "summary": "",
+      "updatedAt": ""
+    },
+    "longTermBackground": {
+      "summary": "Python 开发者，具有使用 Git 进行版本控制的工作经验。工作地点位于沈阳。",
+      "updatedAt": "2026-04-11T13:36:47.341522Z"
+    }
+  },
+  "facts": [
+    {
+      "id": "fact_0096ed7d",
+      "content": "用户是 Python 开发者，工作地点在沈阳",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-11T13:36:47.341522Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_bc0b81fd",
+      "content": "用户正在学习 DeerFlow 项目（字节跳动开源的 AI Agent 框架，基于 LangGraph 构建）",
+      "category": "goal",
+      "confidence": 0.9,
+      "createdAt": "2026-04-11T13:36:47.341522Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_58924844",
+      "content": "用户偏好使用 SSH 而非 HTTPS 进行 Git 操作",
+      "category": "preference",
+      "confidence": 0.95,
+      "createdAt": "2026-04-11T13:36:47.341522Z",
+      "source": "debug-thread-001"
+    }
+  ]
+}

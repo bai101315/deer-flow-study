@@ -148,6 +148,8 @@ class FileMemoryStorage(MemoryStorage):
         """Save memory data to file and update cache."""
         file_path = self._get_memory_file_path(agent_name)
 
+        # print(f"Saving memory for agent {agent_name!r} to {file_path}")
+
         try:
             file_path.parent.mkdir(parents=True, exist_ok=True)
             memory_data["lastUpdated"] = utc_now_iso_z()

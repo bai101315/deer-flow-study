@@ -11,7 +11,11 @@ _SAFE_THREAD_ID_RE = re.compile(r"^[A-Za-z0-9_\-]+$")
 
 def _default_local_base_dir() -> Path:
     """Return the repo-local DeerFlow state directory without relying on cwd."""
-    backend_dir = Path(__file__).resolve().parents[4]
+    # 原来是往前移动四级目录
+    # backend_dir = Path(__file__).resolve().parents[4]
+    backend_dir = Path(__file__).resolve().parents[2]
+
+    # print(f"Default local base dir: {backend_dir / '.deer-flow'}")
     return backend_dir / ".deer-flow"
 
 
@@ -107,6 +111,7 @@ class Paths:
             return self._base_dir
 
         if env_home := os.getenv("DEER_FLOW_HOME"):
+            # print(f"Using DEER_FLOW_HOME from environment: {Path(env_home).resolve()}")
             return Path(env_home).resolve()
 
         return _default_local_base_dir()

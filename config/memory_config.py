@@ -28,7 +28,7 @@ class MemoryConfig(BaseModel):
         description="The class path for memory storage provider",
     )
     debounce_seconds: int = Field(
-        default=30,
+        default=1,
         ge=1,
         le=300,
         description="Seconds to wait before processing queued updates (debounce)",
