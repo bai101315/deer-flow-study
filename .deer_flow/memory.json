@@ -1,0 +1,380 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-04-22T13:15:10.907849Z",
+  "user": {
+    "workContext": {
+      "summary": "",
+      "updatedAt": ""
+    },
+    "personalContext": {
+      "summary": "Bilingual communicator preferring Chinese for interactions; maintains systematic algorithmic problem-solving practice with strong technical focus",
+      "updatedAt": "2026-04-19T12:35:53.179815Z"
+    },
+    "topOfMind": {
+      "summary": "Actively engaged in regular LeetCode daily practice with verified account (username: aaanan-ren-pi-fa-shang-wang-jie-gong-bu-ying-qiu). On April 19, 2026, completed 10 unique problems with 18 total submissions, exceeding typical daily targets with difficulty distribution of 1 Easy, 8 Medium, and 1 Hard. On April 21, 2026, continued streak by completing 9 unique problems including Daily Challenge #1722 Minimize Hamming Distance After Swap Operations (Medium), alongside other problems like Sliding Window Maximum (Hard), Set Matrix Zeroes, Merge Intervals, Maximum Subarray, Product of Array Except Self, Smallest String With Swaps, Maximize Alternating Sum Using Swaps, and Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit. Successfully documented progress with comprehensive markdown summaries generated via leetcode_get_all_submissions tool. Files saved locally at /mnt/user-data/outputs/ directory for tracking progress. Continues maintaining strong technical focus with emphasis on medium-difficulty algorithmic problems while demonstrating proficiency across diverse topics including array manipulation, graph traversal, dynamic programming, two pointers, hash tables, prefix sum, BFS, binary search, and monotonic stack techniques.",
+      "updatedAt": "2026-04-21T12:46:24.062066Z"
+    }
+  },
+  "history": {
+    "recentMonths": {
+      "summary": "Consistent LeetCode daily practice routine established since early April 2026, with focus on algorithmic problem-solving at medium difficulty level. Successfully retrieved actual LeetCode account data showing extensive problem-solving activity. On April 15, 2026, user completed 6 problems covering diverse topics including Dynamic Programming, DFS/Tree traversal, Topological Sort, Backtracking, and Greedy algorithms. On April 16, 2026, user tackled Binary Tree Maximum Path Sum (HARD). On April 17, 2026, user completed Word Break and Minimum Absolute Distance Between Mirror Pairs (MEDIUM). On April 19, 2026, user completed 10 unique problems with 18 total submissions including Multi Source Flood Fill, Smallest Stable Index I/II, Maximum Distance Between a Pair of Values (Daily Challenge #1855), Subarray Sum Equals K, Longest Substring Without Repeating Characters, Mirror Distance of an Integer, Trapping Rain Water, 3Sum, Container With Most Water, and Move Zeroes. On April 21, 2026, user continued the streak with 9 unique problems including Daily Challenge #1722 Minimize Hamming Distance After Swap Operations, Sliding Window Maximum (Hard), along with Set Matrix Zeroes, Merge Intervals, Maximum Subarray, Product of Array Except Self, Smallest String With Swaps, Maximize Alternating Sum Using Swaps, and Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit. Systematic tracking revealed topic area scores across multiple skill categories. Recently expanded to generating comprehensive daily markdown summaries with problem analysis, complexity details, and planning components. When GitHub commit authentication failed, user accepted fallback to local outputs directory storage.",
+      "updatedAt": "2026-04-21T12:46:24.062066Z"
+    },
+    "earlierContext": {
+      "summary": "",
+      "updatedAt": ""
+    },
+    "longTermBackground": {
+      "summary": "",
+      "updatedAt": ""
+    }
+  },
+  "facts": [
+    {
+      "id": "fact_92b5d4c9",
+      "content": "User prefers using bash agents and shell commands for file system operations",
+      "category": "preference",
+      "confidence": 0.75,
+      "createdAt": "2026-04-17T02:42:05.420313Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_f918f037",
+      "content": "User workspace located at /mnt/user-data with uploads/, workspace/, and outputs/ subdirectories",
+      "category": "context",
+      "confidence": 0.85,
+      "createdAt": "2026-04-17T05:32:43.920566Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_09b21525",
+      "content": "User regularly checks and solves LeetCode daily programming challenges",
+      "category": "behavior",
+      "confidence": 0.9,
+      "createdAt": "2026-04-17T06:38:57.721617Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_81e9df52",
+      "content": "User prefers detailed, multi-angle analysis over superficial summaries when reviewing technical progress",
+      "category": "preference",
+      "confidence": 0.85,
+      "createdAt": "2026-04-17T06:41:36.851401Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_1671139a",
+      "content": "User prefers markdown format for documentation and report outputs",
+      "category": "preference",
+      "confidence": 0.85,
+      "createdAt": "2026-04-17T06:41:36.851401Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_362e0dc6",
+      "content": "User actively tracks and analyzes their LeetCode progress systematically to identify weaknesses and improvement areas",
+      "category": "behavior",
+      "confidence": 0.9,
+      "createdAt": "2026-04-17T06:41:36.851401Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_1668ce14",
+      "content": "User prefers discovering and listing available tools before beginning technical analysis work",
+      "category": "preference",
+      "confidence": 0.8,
+      "createdAt": "2026-04-17T06:52:48.051975Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_cc0b8395",
+      "content": "User desires multi-dimensional LeetCode analysis including difficulty distribution, knowledge point mastery, pass rate, and time trend metrics",
+      "category": "goal",
+      "confidence": 0.95,
+      "createdAt": "2026-04-17T06:56:49.698947Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_6dad9ae4",
+      "content": "User requires valid LeetCode username to be provided for accurate data retrieval and analysis",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-17T06:56:49.698947Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_6987cda2",
+      "content": "User expects personalized improvement recommendations based on identified weaknesses in LeetCode performance",
+      "category": "goal",
+      "confidence": 0.9,
+      "createdAt": "2026-04-17T06:56:49.698947Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_c84bd7c8",
+      "content": "User has configured MCP (Model Context Protocol) tools for direct agent use",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-17T07:04:25.508836Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_2663e223",
+      "content": "MCP tool configuration enables direct API access but does not eliminate requirement for LeetCode username authentication",
+      "category": "correction",
+      "confidence": 0.9,
+      "createdAt": "2026-04-17T07:04:25.508836Z",
+      "source": "debug-thread-001",
+      "sourceError": "Initial assumption that MCP tools might work without username authentication proved incorrect"
+    },
+    {
+      "id": "fact_ea74c834",
+      "content": "User's LeetCode username is aaanan-ren-pi-fa-shi-chang-wang-jie-gong-bu-ying-qiu with global ranking #46059",
+      "category": "context",
+      "confidence": 1.0,
+      "createdAt": "2026-04-17T07:27:19.015885Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_47c14354",
+      "content": "User has solved 517 LeetCode problems total: 156 Easy, 331 Medium, 30 Hard",
+      "category": "knowledge",
+      "confidence": 1.0,
+      "createdAt": "2026-04-17T07:27:19.015885Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_6370e000",
+      "content": "User attempted 27 problems unsuccessfully: 4 Easy, 14 Medium, 9 Hard",
+      "category": "knowledge",
+      "confidence": 1.0,
+      "createdAt": "2026-04-17T07:27:19.015885Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_abbe21a8",
+      "content": "User's LeetCode topic scores: Data Structures 37, Algorithms 35, Design 30, Architecture 0",
+      "category": "knowledge",
+      "confidence": 1.0,
+      "createdAt": "2026-04-17T07:27:19.015885Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_84432a33",
+      "content": "User recently solved Binary Tree Maximum Path Sum (HARD) on April 16, 2026",
+      "category": "behavior",
+      "confidence": 0.95,
+      "createdAt": "2026-04-17T07:27:19.015885Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_149b083d",
+      "content": "User recently solved Word Break (MEDIUM) and Minimum Absolute Distance Between Mirror Pairs (MEDIUM) on April 17, 2026",
+      "category": "behavior",
+      "confidence": 0.95,
+      "createdAt": "2026-04-17T07:27:19.015885Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_934864df",
+      "content": "User demonstrates preference for hard difficulty challenges with 30 completed problems despite lower count than medium",
+      "category": "preference",
+      "confidence": 0.85,
+      "createdAt": "2026-04-17T07:27:19.015885Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_550f9093",
+      "content": "User requests daily LeetCode summaries in markdown format with specific sections: problem list, key analysis, time/space complexity, solution code, and future planning",
+      "category": "preference",
+      "confidence": 0.95,
+      "createdAt": "2026-04-17T08:05:38.561333Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_fb7e2b78",
+      "content": "User completed 6 LeetCode problems on April 15, 2026: Word Break (139-Medium), Binary Tree Max Path Sum (124-Hard), Course Schedule II (210-Medium), Permutations (46-Medium), Jump Game II (45-Medium), and Coin Change (322-Medium)",
+      "category": "behavior",
+      "confidence": 0.95,
+      "createdAt": "2026-04-17T08:32:41.295341Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_e59e2711",
+      "content": "When GitHub commit authentication fails, user accepts alternative storage in local outputs directory rather than retrying authentication immediately",
+      "category": "preference",
+      "confidence": 0.85,
+      "createdAt": "2026-04-17T08:32:41.295341Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_ab193a52",
+      "content": "User completed Daily Challenge problem #1985 Maximum Distance Between a Pair of Values on April 19, 2026",
+      "category": "behavior",
+      "confidence": 0.95,
+      "createdAt": "2026-04-19T11:24:29.349509Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_82392515",
+      "content": "User's April 19, 2026 problem demonstrates proficiency with Array, Two Pointers, and Binary Search techniques",
+      "category": "knowledge",
+      "confidence": 0.9,
+      "createdAt": "2026-04-19T11:24:29.349509Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_f478d275",
+      "content": "Problem #1985 Maximum Distance Between a Pair of Values is tagged with Google, Amazon, Uber company labels",
+      "category": "context",
+      "confidence": 0.9,
+      "createdAt": "2026-04-19T11:24:29.349509Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_52364e00",
+      "content": "User expects to view ALL LeetCode submissions from the current day, not just the Daily Challenge problem",
+      "category": "preference",
+      "confidence": 0.95,
+      "createdAt": "2026-04-19T11:27:21.947674Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_00d7ac3d",
+      "content": "On April 19, 2026, user made 4 submissions on problem #1985 Maximum Distance Between a Pair of Values before successful completion",
+      "category": "behavior",
+      "confidence": 0.95,
+      "createdAt": "2026-04-19T11:27:21.947674Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_7a5fced4",
+      "content": "Environment has bash shell compatibility issues with PowerShell parser conflicts where && is not valid statement separator",
+      "category": "context",
+      "confidence": 0.9,
+      "createdAt": "2026-04-19T12:30:59.250807Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_a27648e0",
+      "content": "User prefers using Python for timestamp calculations when bash shell commands fail in PowerShell-conflicted environment",
+      "category": "preference",
+      "confidence": 0.85,
+      "createdAt": "2026-04-19T12:30:59.250807Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_792f8661",
+      "content": "User prefers communicating in Chinese language",
+      "category": "preference",
+      "confidence": 0.95,
+      "createdAt": "2026-04-19T12:35:53.179815Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_ccd495b6",
+      "content": "User's LeetCode username is aaanan-ren-pi-fa-shang-wang-jie-gong-bu-ying-qiu (corrected from 'shi' to 'shang')",
+      "category": "context",
+      "confidence": 1.0,
+      "createdAt": "2026-04-19T12:41:58.688861Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_bde67470",
+      "content": "User regularly exceeds daily target by completing more than 6 problems per day",
+      "category": "behavior",
+      "confidence": 0.9,
+      "createdAt": "2026-04-19T12:41:58.688861Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_20f27d18",
+      "content": "User completed problems: Multi Source Flood Fill (#101045), Smallest Stable Index I (#101046), Smallest Stable Index II (#101047) on April 19, 2026",
+      "category": "knowledge",
+      "confidence": 1.0,
+      "createdAt": "2026-04-19T12:41:58.688861Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_f3119912",
+      "content": "User demonstrates proficiency with Two Pointers, Hash Tables, Prefix Sum, and BFS techniques on April 19, 2026",
+      "category": "knowledge",
+      "confidence": 0.9,
+      "createdAt": "2026-04-19T12:41:58.688861Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_445b6f10",
+      "content": "On April 19, 2026, user completed 10 unique LeetCode problems with 18 total submissions (1 Easy, 8 Medium, 1 Hard)",
+      "category": "behavior",
+      "confidence": 1.0,
+      "createdAt": "2026-04-19T13:03:20.610462Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_b249537c",
+      "content": "User's LeetCode Daily Challenge #1855 Maximum Distance Between a Pair of Values requires 4 submissions before successful completion",
+      "category": "behavior",
+      "confidence": 0.95,
+      "createdAt": "2026-04-19T13:03:20.610462Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_a6b5e181",
+      "content": "Correct tool for retrieving LeetCode submissions is leetcode_get_all_submissions rather than leetcode_get_recent_ac_submissions",
+      "category": "correction",
+      "confidence": 0.95,
+      "createdAt": "2026-04-19T13:03:20.610462Z",
+      "source": "leetcode_assis",
+      "sourceError": "Initial attempt using leetcode_get_recent_ac_submissions returned empty list {'acSubmissions':[]}"
+    },
+    {
+      "id": "fact_cf165955",
+      "content": "User's LeetCode problems completed on April 19 include Multi Source Flood Fill (#852/#849), Smallest Stable Index I (#850/#847), Smallest Stable Index II (#851/#848), Maximum Distance Between a Pair of Values (#846/#845/#844/#843), Subarray Sum Equals K (#842/#841), Longest Substring Without Repeating Characters (#840), Mirror Distance of an Integer (#839), Trapping Rain Water (#838), 3Sum (#837/#836), Container With Most Water (#835), Move Zeroes (#834/#833)",
+      "category": "knowledge",
+      "confidence": 1.0,
+      "createdAt": "2026-04-19T13:03:20.610462Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_65de5b17",
+      "content": "User demonstrates proficiency with Two Pointers, Hash Tables, Prefix Sum, BFS, Binary Search, and Monotonic Stack techniques on April 19, 2026",
+      "category": "knowledge",
+      "confidence": 0.95,
+      "createdAt": "2026-04-19T13:03:20.610462Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_4731ffc8",
+      "content": "User prefers Python for timestamp calculations when bash shell commands fail in PowerShell-conflicted environment",
+      "category": "preference",
+      "confidence": 0.9,
+      "createdAt": "2026-04-19T13:03:20.610462Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_4a11ec57",
+      "content": "On April 21, 2026, user completed 9 unique LeetCode problems with multiple submissions including Daily Challenge #1722 Minimize Hamming Distance After Swap Operations (Medium)",
+      "category": "behavior",
+      "confidence": 0.95,
+      "createdAt": "2026-04-21T12:46:24.062066Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_f6d1a1d8",
+      "content": "User's April 21, 2026 problem set includes: Maximize Alternating Sum Using Swaps, Smallest String With Swaps, Set Matrix Zeroes, Merge Intervals, Maximum Subarray, Product of Array Except Self, Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit, Sliding Window Maximum (Hard)",
+      "category": "knowledge",
+      "confidence": 0.95,
+      "createdAt": "2026-04-21T12:46:24.062066Z",
+      "source": "leetcode_assis"
+    },
+    {
+      "id": "fact_909d5788",
+      "content": "User demonstrates proficiency with sliding window technique on April 21, 2026 based on Sliding Window Maximum problem completion",
+      "category": "knowledge",
+      "confidence": 0.9,
+      "createdAt": "2026-04-21T12:46:24.062066Z",
+      "source": "leetcode_assis"
+    }
+  ]
+}

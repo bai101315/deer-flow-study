@@ -1,0 +1,404 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-04-22T13:41:18.663139Z",
+  "user": {
+    "workContext": {
+      "summary": "",
+      "updatedAt": ""
+    },
+    "personalContext": {
+      "summary": "Bilingual individual (Chinese/English) focused on systematic algorithmic skill development through disciplined LeetCode practice.",
+      "updatedAt": "2026-04-19T13:02:58.681319Z"
+    },
+    "topOfMind": {
+      "summary": "Maintains rigorous daily LeetCode study routine with structured Markdown documentation; on 2026-04-22 completed Daily Challenge #2452 Words Within Two Edits of Dictionary (Medium, Trie/Array/String topics), continuing streak from previous days. On 2026-04-21 completed 27 unique problems from 22+ submissions (Python3, 100% acceptance rate), including Minimize Hamming Distance After Swap Operations, Exchange Elements Max Alternating Sum, Smallest String With Swaps, Set Matrix Zeroes, Product of Array Except Self, Merge Intervals, Maximum Subarray, Longest Continuous Subarray with Absolute Diff ≤ Limit, Sliding Window Maximum, Count Special Integers, Two Furthest Houses With Different Colors, Multi Source Flood Fill, Smallest Stable Index II/I, Max Distance Between Index Pairs, Subarray Sum Equals K, Longest Substring Without Repeating Characters, Mirror Distance of an Integer, Trapping Rain Water, 3Sum, Container With Most Water, Move Zeroes, Longest Consecutive Sequence, Word Break, Minimum Absolute Distance Between Pairs, Binary Tree Max Path Sum, Binary Tree Diameter, Course Schedule II. Successfully solved all problems with no failures. Actively practices diverse algorithmic techniques including Dynamic Programming, BFS, Two Pointers, Hash Tables, Prefix Sums, DFS, Tree traversal, Topological Sort, Backtracking, Greedy algorithms, Monotonic Stack, Sliding Window, Bit manipulation, Graph algorithms. Documents progress via comprehensive Markdown summaries stored locally in /mnt/user-data/outputs/ directory with automatic filename convention leetcode_daily_summary_YYYYMMDD.md.",
+      "updatedAt": "2026-04-22T13:41:18.631592Z"
+    }
+  },
+  "history": {
+    "recentMonths": {
+      "summary": "Engaged in consistent daily LeetCode practice with documented study sessions spanning multiple algorithm categories. On 2026-04-22, completed Daily Challenge #2452 Words Within Two Edits of Dictionary (Medium difficulty, Trie/Array/String topics, associated with Google/Facebook/Bloomberg). On 2026-04-21, expanded practice significantly with 27 unique problems solved including advanced topics like graph algorithms, tree traversals, bit manipulation, sliding window optimization, and dynamic programming variations. On 2026-04-19, achieved 10 unique problems from 18 submissions with difficulty distribution Easy×1, Medium×8, Hard×1, including Multi Source Flood Fill (#101045), Smallest Stable Index I & II (#101046, #101047), Maximum Distance Between a Pair of Values (#1855) Daily Challenge, Subarray Sum Equals K (#560), Mirror Distance of an Integer (#3783), Trapping Rain Water (#42), 3Sum (#15), Container With Most Water (#11), Moving Zeroes (Easy), and others. Encountered tool failure with leetcode_get_recent_ac_submissions returning empty results on 2026-04-19, resolved by switching to leetcode_get_all_submissions tool to retrieve complete submission data. Generates comprehensive Markdown summaries with problem links, complexity tables, technique analysis, and performance metrics. Maintains GitHub integration preference but prioritizes local storage reliability through outputs directory fallback mechanism. Uses Python3 exclusively for LeetCode solutions.",
+      "updatedAt": "2026-04-22T13:41:18.631592Z"
+    },
+    "earlierContext": {
+      "summary": "",
+      "updatedAt": ""
+    },
+    "longTermBackground": {
+      "summary": "Demonstrates strong interest in algorithmic problem-solving and systematic skill development. Shows disciplined approach to technical learning with documentation and version control practices.",
+      "updatedAt": "2026-04-17T08:32:26.255253Z"
+    }
+  },
+  "facts": [
+    {
+      "id": "fact_9ebd6fb4",
+      "content": "Completes 6 LeetCode problems per daily study session",
+      "category": "behavior",
+      "confidence": 0.9,
+      "createdAt": "2026-04-17T08:32:26.255253Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_f1c9cb34",
+      "content": "Uses Markdown format to document LeetCode study summaries with problem analysis, complexity, and code",
+      "category": "preference",
+      "confidence": 0.95,
+      "createdAt": "2026-04-17T08:32:26.255253Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_81b46c85",
+      "content": "Prefers local storage in outputs directory as fallback when GitHub authentication fails",
+      "category": "preference",
+      "confidence": 0.85,
+      "createdAt": "2026-04-17T08:32:26.255253Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_01df6755",
+      "content": "Practices algorithms across DP, DFS, Tree, Topological Sort, Backtracking, Greedy, BFS domains",
+      "category": "knowledge",
+      "confidence": 0.9,
+      "createdAt": "2026-04-17T08:32:26.255253Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_c62e29e5",
+      "content": "Works with LeetCode problem numbers: 139, 124, 210, 46, 45, 322",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-17T08:32:26.255253Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_023bf720",
+      "content": "Encountered GitHub authentication error during study session, used alternative storage strategy instead of retrying auth",
+      "category": "correction",
+      "confidence": 0.9,
+      "createdAt": "2026-04-17T08:32:26.255253Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_31c54575",
+      "content": "Completed LeetCode problem #1985 Maximum Distance Between a Pair of Values as Daily Challenge on 2026-04-19",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-19T11:24:14.554749Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_c1798086",
+      "content": "Practices Two Pointers and Binary Search algorithmic techniques",
+      "category": "knowledge",
+      "confidence": 0.9,
+      "createdAt": "2026-04-19T11:24:14.554749Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_4d1cac3d",
+      "content": "Problem #1985 associated with Google, Amazon, Uber interview questions",
+      "category": "context",
+      "confidence": 0.9,
+      "createdAt": "2026-04-19T11:24:14.554749Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_cd744694",
+      "content": "User prefers seeing all LeetCode problems passed during a daily session, not just the Daily Challenge problem",
+      "category": "correction",
+      "confidence": 0.95,
+      "createdAt": "2026-04-19T11:27:07.053572Z",
+      "source": "debug-thread-001",
+      "sourceError": "Previous response only showed Daily Challenge problem #1985 instead of all problems passed today"
+    },
+    {
+      "id": "fact_97d21f70",
+      "content": "On 2026-04-19, made 4 submission attempts for problem #1985 Maximum Distance Between a Pair of Values",
+      "category": "context",
+      "confidence": 0.9,
+      "createdAt": "2026-04-19T11:27:07.053572Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_7b90c341",
+      "content": "Communicates in Chinese, indicating bilingual capability",
+      "category": "preference",
+      "confidence": 0.95,
+      "createdAt": "2026-04-19T12:20:30.054293Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_b14eea18",
+      "content": "Completed 7 AC submissions on 2026-04-19, exceeding typical 6-problem daily target",
+      "category": "behavior",
+      "confidence": 0.95,
+      "createdAt": "2026-04-19T12:30:44.042155Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_f5614ec2",
+      "content": "Solved LeetCode problems: Multi Source Flood Fill, Smallest Stable Index I, Smallest Stable Index II, Maximum Distance Between a Pair of Values, Subarray Sum Equals K, Longest Substring Without Repeating Characters, Mirror Distance of an Integer, Trapping Rain Water, 3Sum, Container With Most Water",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-19T12:30:44.042155Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_fb49bd61",
+      "content": "Encountered bash/PowerShell environment conflict when using date command; resolved by manually calculating Unix timestamps instead of relying on bash execution",
+      "category": "correction",
+      "confidence": 0.9,
+      "createdAt": "2026-04-19T12:30:44.042155Z",
+      "source": "debug-thread-001",
+      "sourceError": "Attempted to get current Unix timestamp using bash (date +%s) but received PowerShell parser error (&& not valid statement separator)"
+    },
+    {
+      "id": "fact_86603f35",
+      "content": "LeetCode account username: aaanan-ren-pi-fa-shang-wang-jie-gong-bu-ying-qiu",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-19T12:41:30.869882Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_98112f70",
+      "content": "Solved LeetCode problem #101045 Multi Source Flood Fill",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-19T12:41:30.869882Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_30067e1d",
+      "content": "Solved LeetCode problem #101046 Smallest Stable Index I and #101047 Smallest Stable Index II",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-19T12:41:30.869882Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_92052d1e",
+      "content": "Solved LeetCode problem #1855 Maximum Distance Between a Pair of Values as Daily Challenge",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-19T12:41:30.869882Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_bb05ca23",
+      "content": "Solved LeetCode problem #560 Subarray Sum Equals K using prefix sum technique",
+      "category": "knowledge",
+      "confidence": 0.9,
+      "createdAt": "2026-04-19T12:41:30.869882Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_9c9f0f72",
+      "content": "Solved LeetCode problem #3783 Mirror Distance of an Integer",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-19T12:41:30.869882Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_2ecd0e14",
+      "content": "Daily LeetCode summary documents saved to /mnt/user-data/outputs/ directory as markdown files",
+      "category": "preference",
+      "confidence": 0.9,
+      "createdAt": "2026-04-19T12:41:30.869882Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_864381fa",
+      "content": "On 2026-04-19, made 18 total submission attempts across 10 unique LeetCode problems",
+      "category": "behavior",
+      "confidence": 0.95,
+      "createdAt": "2026-04-19T13:02:58.681319Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_08157a8f",
+      "content": "Uses leetcode_get_all_submissions tool as primary method for retrieving AC submission records",
+      "category": "preference",
+      "confidence": 0.9,
+      "createdAt": "2026-04-19T13:02:58.681319Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_f8e53e26",
+      "content": "Daily LeetCode summary documents saved with filename convention leetcode_daily_summary_YYYYMMDD.md to /mnt/user-data/outputs/ directory",
+      "category": "preference",
+      "confidence": 0.9,
+      "createdAt": "2026-04-19T13:02:58.681319Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_558ca72f",
+      "content": "Successfully solved all 10 unique LeetCode problems with 100% acceptance rate on 2026-04-19",
+      "category": "behavior",
+      "confidence": 0.95,
+      "createdAt": "2026-04-19T13:02:58.681319Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_a9b08052",
+      "content": "Practices monotonic stack algorithmic technique",
+      "category": "knowledge",
+      "confidence": 0.9,
+      "createdAt": "2026-04-19T13:02:58.681319Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_b8b5736b",
+      "content": "On 2026-04-21, completed 27 unique LeetCode problems from 22+ submissions with 100% acceptance rate using Python3",
+      "category": "behavior",
+      "confidence": 0.95,
+      "createdAt": "2026-04-21T12:46:04.228041Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_1fe3bfa5",
+      "content": "Solved LeetCode problem #719922069 Minimize Hamming Distance After Swap Operations as Daily Challenge on 2026-04-21",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-21T12:46:04.228041Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_ffdb6723",
+      "content": "Solved LeetCode problem #719954746 Maximize Alternating Sum Using Swaps on 2026-04-21",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-21T12:46:04.228041Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_bcd28f0e",
+      "content": "Solved LeetCode problem #719951721 Smallest String With Swaps on 2026-04-21",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-21T12:46:04.228041Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_3ccbe753",
+      "content": "Solved LeetCode problem #719830377 Set Matrix Zeroes on 2026-04-21",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-21T12:46:04.228041Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_ec26e264",
+      "content": "Solved LeetCode problem #719816615 Product of Array Except Self on 2026-04-21",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-21T12:46:04.228041Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_26c3bde8",
+      "content": "Solved LeetCode problem #Merge Intervals on 2026-04-21",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-21T12:46:04.228041Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_367ed9a2",
+      "content": "Solved LeetCode problem #Maximum Subarray on 2026-04-21",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-21T12:46:04.228041Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_96f7df53",
+      "content": "Solved LeetCode problem #Longest Continuous Subarray with Absolute Diff ≤ Limit on 2026-04-21",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-21T12:46:04.228041Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_195a4a87",
+      "content": "Solved LeetCode problem #Sliding Window Maximum on 2026-04-21",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-21T12:46:04.228041Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_846812c7",
+      "content": "Solved LeetCode problem #Count Special Integers on 2026-04-21",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-21T12:46:04.228041Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_f2b1e85f",
+      "content": "Solved LeetCode problem #Two Furthest Houses With Different Colors on 2026-04-21",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-21T12:46:04.228041Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_143d04ad",
+      "content": "Practices graph algorithms including Multi Source Flood Fill on 2026-04-21",
+      "category": "knowledge",
+      "confidence": 0.9,
+      "createdAt": "2026-04-21T12:46:04.228041Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_0b857922",
+      "content": "Practices tree traversal algorithms including Binary Tree Max Path Sum and Binary Tree Diameter on 2026-04-21",
+      "category": "knowledge",
+      "confidence": 0.9,
+      "createdAt": "2026-04-21T12:46:04.228041Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_025e8d32",
+      "content": "Uses write_todos tool for task management during LeetCode study sessions",
+      "category": "preference",
+      "confidence": 0.9,
+      "createdAt": "2026-04-21T12:46:04.228041Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_b99c8f61",
+      "content": "Solved LeetCode problem #2452 Words Within Two Edits of Dictionary as Daily Challenge on 2026-04-22",
+      "category": "context",
+      "confidence": 0.95,
+      "createdAt": "2026-04-22T13:41:18.631592Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_f1b22e06",
+      "content": "Problem #2452 Words Within Two Edits of Dictionary covers Trie, Array, String algorithmic techniques",
+      "category": "knowledge",
+      "confidence": 0.9,
+      "createdAt": "2026-04-22T13:41:18.631592Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_517a74c5",
+      "content": "Problem #2452 Words Within Two Edits of Dictionary associated with Google, Facebook, Bloomberg interview questions",
+      "category": "context",
+      "confidence": 0.9,
+      "createdAt": "2026-04-22T13:41:18.631592Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_8bf44eb4",
+      "content": "Daily LeetCode practice streak continues through 2026-04-22",
+      "category": "behavior",
+      "confidence": 0.95,
+      "createdAt": "2026-04-22T13:41:18.631592Z",
+      "source": "debug-thread-001"
+    }
+  ]
+}
