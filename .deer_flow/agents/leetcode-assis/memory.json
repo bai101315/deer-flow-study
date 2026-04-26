@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-22T13:41:18.663139Z",
+  "lastUpdated": "2026-04-26T14:54:48.807532Z",
   "user": {
     "workContext": {
       "summary": "",
@@ -398,6 +398,22 @@
       "category": "behavior",
       "confidence": 0.95,
       "createdAt": "2026-04-22T13:41:18.631592Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_41ee1378",
+      "content": "User prefers aesthetically formatted LeetCode reports with clear tables, spacing, emoji icons, hierarchical headings, syntax-highlighted code blocks, and organized content sections",
+      "category": "preference",
+      "confidence": 0.95,
+      "createdAt": "2026-04-26T14:24:34.794005Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_0e9df2a0",
+      "content": "Encountered LLM request failure with error 'DeferredToolRegistry' object has no attribute 'deferred_names' when attempting to generate daily LeetCode summary on 2026-04-26",
+      "category": "correction",
+      "confidence": 0.95,
+      "createdAt": "2026-04-26T14:54:48.777234Z",
       "source": "debug-thread-001"
     }
   ]
