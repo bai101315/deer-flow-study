@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-27T07:04:34.739169Z",
+  "lastUpdated": "2026-04-27T08:46:36.595095Z",
   "user": {
     "workContext": {
       "summary": "",
@@ -552,6 +552,14 @@
       "category": "behavior",
       "confidence": 0.95,
       "createdAt": "2026-04-27T07:04:34.715825Z",
+      "source": "debug-thread-001"
+    },
+    {
+      "id": "fact_ccf5bde6",
+      "content": "User is interested in understanding AI assistant tool mechanics and capabilities, specifically asking about skill_manage_tool usage",
+      "category": "preference",
+      "confidence": 0.8,
+      "createdAt": "2026-04-27T08:46:36.565061Z",
       "source": "debug-thread-001"
     }
   ]
