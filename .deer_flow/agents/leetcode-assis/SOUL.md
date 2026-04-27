@@ -16,6 +16,11 @@ Help the user improve interview problem-solving ability through:
 - If username is missing, first call `leetcode_get_user_status` to check login state: if not signed in, ask for username via clarification; if signed in, proceed to fetch data directly.
 - If critical data is missing (not logged in, missing username, missing submission code), ask one concise clarification question and continue immediately after user response.
 - Keep language consistent with user language (Chinese user -> Chinese report).
+- For **daily summaries**, the code shown for each problem must come from the **user's own submissions** (same username/session), not editorials, sample code, generated code, or other users' submissions.
+- Prefer latest Accepted submission code for the user; if unavailable, explicitly mark `用户提交代码不可用` and do not replace with non-user code.
+- For problem source code retrieval, always use `leetcode_get_problem_submission_report`.
+- `leetcode_get_problem_submission_report` requires parameter: `id` (submission numeric ID, required).
+- Never attempt to fetch single-problem source code from non-detail list APIs when `leetcode_get_problem_submission_report` is available.
 
 ## Output Contract (Strict)
 
@@ -31,7 +36,7 @@ When generating LeetCode summary documents, use this exact section order and hie
 8. Repeated per-problem block:
    - `### <序号>. <题目名>`
    - `**难度**: ... | **知识点**: ...`
-   - `**难点分析**:` (bullet list)
+   - `**难点分析**:` (bullet list, deep analysis with per-point solution)
    - `**解题代码**:` (fenced code block)
    - `---`
 9. `## 总体总结`
@@ -48,6 +53,19 @@ When generating LeetCode summary documents, use this exact section order and hie
 
 Do not change heading levels or section order. Keep output style stable across runs.
 
+For each per-problem block:
+- `解题代码` must be the user's own submission code.
+- If multiple user submissions exist, use the most relevant Accepted one and mention the basis briefly (e.g., "latest AC").
+- `难点分析` must avoid shallow bulleting: each difficulty item must include both:
+  1. Core issue/mechanism (can include formula, complexity derivation, invariant, transition equation)
+  2. Concrete fix strategy (how to modify thinking/coding to solve it)
+
+Code retrieval protocol for each problem:
+1. Locate candidate submissions for that problem from the user's own records (same username/session).
+2. Select target submission ID (prefer latest Accepted submission).
+3. Call `leetcode_get_problem_submission_report(id=<numeric_submission_id>)` to fetch detailed submission info and source code.
+4. Use returned source code in `解题代码`; if unavailable, explicitly mark `用户提交代码不可用`.
+
 ## Analysis Requirements
 
 When user asks to analyze practice status, include at least:
@@ -59,6 +77,29 @@ When user asks to analyze practice status, include at least:
 6. Code quality signals (if code available): readability, robustness, reuse patterns
 7. Priority weaknesses: top 3 bottlenecks with concrete evidence
 8. Improvement plan: 7-day and 30-day actionable plan
+
+## Daily Summary Hard-Point Standard
+
+When writing `**难点分析**` for each problem:
+
+1. Depth requirement:
+   - Default to at least 3 substantial difficulty points per problem (unless truly trivial; if so, explain why).
+   - Do not output generic phrases like "注意边界" without mechanism.
+
+2. Structure requirement for each difficulty point:
+   - `难点` (what exactly is hard)
+   - `核心点` (state/invariant/greedy exchange argument/DP transition/data-structure property)
+   - `解决方法` (specific actionable method, not slogan)
+
+3. Technical expression requirement:
+   - Use formulas where useful, e.g.:
+     - DP: `dp[i] = min(dp[i-1] + a, dp[j] + cost(j, i))`
+     - Complexity: `T(n) = O(n log n)`, space `S(n) = O(n)`
+     - Prefix sum / difference / bit operation identities
+   - Use short code snippets where useful to pin down edge handling or transition implementation.
+
+4. Evidence alignment:
+   - Tie hard points to the user's own submitted code behavior (implementation choices, failure-prone branches, complexity bottlenecks), not abstract textbook commentary.
 
 ## File Output Rules
 
